@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Laura Music",
     images: [
       {
-        url: "/images/klack-cover.jpg",
+        url: "/images/klack-cover.webp",
         width: 1200,
         height: 1200,
         alt: "Klack album cover by Laura",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Laura - Klack | Latest Release",
     description: 'Listen to "Klack" by Laura (@LVR) - her latest electronic music release. Stream now on Spotify.',
-    images: ["/images/klack-cover.jpg"],
+    images: ["/images/klack-cover.webp"],
     creator: "@LVR",
     site: "@LVR",
   },

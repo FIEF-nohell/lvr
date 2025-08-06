@@ -1,30 +1,86 @@
-# Interactive background component
+# 🎤 Laura | Artist Landing Page
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A sleek, minimal, dark-themed **Next.js** one-pager for the artist **Laura (@LVR)**.  
+It dynamically showcases the **latest release**, with rich metadata for SEO and social sharing. Optimized for Spotify and music discovery.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/nohell-dev/lvr)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/6rgLFr4s5Lw)
+---
 
-## Overview
+## 🔥 Live Preview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+[https://lvr.nohell.dev](https://lvr.nohell.dev)
 
-## Deployment
+---
 
-Your project is live at:
+## 📁 Project Structure
 
-**[https://vercel.com/nohell-dev/lvr](https://vercel.com/nohell-dev/lvr)**
+```bash
+├── app/
+│   ├── layout.tsx              # Root layout & metadata
+│   ├── page.tsx                # Entry point for the landing page
+│   └── globals.css             # Global styles
+├── components/
+│   └── ui/                     # UI elements and layout pieces
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── artist-page.tsx
+│       ├── fullpage-background.tsx
+│       └── theme-provider.tsx
+├── lib/utils.ts                # Utility functions
+├── public/                     # Static assets (e.g. cover images)
+```
 
-## Build your app
+---
 
-Continue building your app on:
+## 🚀 Getting Started
 
-**[https://v0.dev/chat/projects/6rgLFr4s5Lw](https://v0.dev/chat/projects/6rgLFr4s5Lw)**
+```bash
+yarn install
+yarn dev
+```
 
-## How It Works
+Runs on: [http://localhost:3000](http://localhost:3000)
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## ✨ Features
+
+* 🧑‍🎤 Artist identity-focused design
+* 🔄 Showcases **latest track release**
+* 📸 Optimized for social media sharing (Open Graph + Twitter)
+* 🎧 Integrated Spotify player
+* 🌌 Fullscreen animated background
+* 📱 Responsive & mobile-friendly layout
+* 🎨 Dark mode aesthetic with a modern feel
+
+---
+
+## 🔧 Customization Tips
+
+* Update the **track info & image** in `artist-page.tsx`
+* Adjust global metadata in `layout.tsx`
+* Background visuals controlled via `fullpage-background.tsx`
+* Static assets live in `/public` (e.g. album cover)
+
+---
+
+## ☁️ Deployment
+
+```bash
+yarn build
+yarn start
+```
+
+Or deploy directly to Vercel:
+
+```bash
+vercel deploy
+```
+
+---
+
+## 👩‍🎤 Credit
+
+Built for **Laura (@LVR)**
+Not tied to any specific release – the page dynamically reflects her **latest work**.
+
+```

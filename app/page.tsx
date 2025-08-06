@@ -1,4 +1,4 @@
-import ArtistPage from "../artist-page"
+import ArtistPage from "@/components/artist-page";
 
 export default function Page() {
   return (

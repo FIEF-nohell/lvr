@@ -85,24 +85,23 @@ export default function Component() {
       <div className="relative z-10 flex items-center justify-center min-h-screen p-4">
         <Card className="bg-black/80 backdrop-blur-md border-white/20 text-white max-w-md w-full">
           <CardContent className="p-8 text-center space-y-6">
-            {/* Album Cover */}
-            <div className="relative mx-auto w-48 h-48 rounded-lg overflow-hidden shadow-2xl">
-              <img src="/images/klack-cover.jpg" alt="Klack album cover" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-            </div>
 
             {/* Artist Info */}
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tight">Laura</h1>
               <a
                 href="https://open.spotify.com/intl-de/artist/3VHg1Bct5nmXqmA0aVsbQi?si=ww7Gc93iS62uKtH5EwIQ_Q"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white/70 text-sm font-medium hover:text-white transition-colors flex items-center justify-center gap-1"
+                className="text-2xl font-bold tracking-tight hover:underline transition-colors flex items-center justify-center gap-3"
               >
-                @LVR
-                <ExternalLink className="w-3 h-3" />
+                LVR
+                <ExternalLink className="w-5 h-5 text-white/60" />
               </a>
+            </div>
+            {/* Album Cover */}
+            <div className="relative mx-auto w-48 h-48 rounded-lg overflow-hidden shadow-2xl">
+              <img src="/images/klack-cover.webp" alt="Klack album cover" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
             </div>
 
             {/* Song Info */}
