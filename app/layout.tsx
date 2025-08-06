@@ -2,13 +2,13 @@ import './globals.css'
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Laura - Klack | Latest Release",
+  title: "LVR | Latest Release",
   description:
     'Listen to "Klack" by Laura (@LVR) - her latest electronic music release. Stream now on Spotify and discover more tracks from this emerging artist.',
   keywords: ["Laura", "LVR", "Klack", "electronic music", "new release", "Spotify", "artist", "music streaming"],
-  authors: [{ name: "Laura", url: "https://open.spotify.com/intl-de/artist/3VHg1Bct5nmXqmA0aVsbQi" }],
+  authors: [{ name: "LVR", url: "https://open.spotify.com/intl-de/artist/3VHg1Bct5nmXqmA0aVsbQi" }],
   creator: "Laura (LVR)",
-  publisher: "Laura Music",
+  publisher: "Laura Ehrenhuber",
   robots: {
     index: true,
     follow: true,
@@ -22,16 +22,16 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "music.song",
-    title: "Laura - Klack | Latest Release",
+    title: "LVR - Klack | Latest Release",
     description: 'Listen to "Klack" by Laura (@LVR) - her latest electronic music release. Stream now on Spotify.',
     url: "https://your-domain.com",
-    siteName: "Laura Music",
+    siteName: "lvrmusic",
     images: [
       {
         url: "/images/klack-cover.webp",
         width: 1200,
         height: 1200,
-        alt: "Klack album cover by Laura",
+        alt: "Klack album cover by LVR",
         type: "image/jpeg",
       },
     ],
@@ -44,14 +44,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Laura - Klack | Latest Release",
+    title: "LVR | Latest Release",
     description: 'Listen to "Klack" by Laura (@LVR) - her latest electronic music release. Stream now on Spotify.',
     images: ["/images/klack-cover.webp"],
     creator: "@LVR",
     site: "@LVR",
   },
   alternates: {
-    canonical: "https://your-domain.com",
+    canonical: "https://lvr.nohell.dev",
   },
   other: {
     "theme-color": "#000000",
